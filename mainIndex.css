@@ -1,0 +1,176 @@
+.object-fit-contain{
+    height: 27%;
+    /* width: 48%; */
+    width: 100vw;
+}
+*{
+    background-color: rgba(255, 255, 255, 0);
+    /* border-radius: 15px;
+    padding: 20px; */
+}
+
+.happyb{
+  opacity: 1;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 200vw;
+  font-size: 40px;
+  height: 50%;
+  border-radius: 10px;
+  width: 98vw;
+  color: white;
+  margin-left: 5px;
+  background-image: linear-gradient(to bottom right, rgb(255, 0, 238), rgb(255, 0, 93));
+}
+.happyb2{
+  opacity: 1;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 5vw;
+  font-size: 40px;
+  height: 50%;
+  border-radius: 10px;
+  width: 98vw;
+  color: white;
+  margin-left: 5px;
+  background-image: linear-gradient(to right, rgb(0, 26, 255), rgb(120, 4, 237));
+}
+.container{
+  position: relative;
+  margin-top: 10%;
+  width: 50%;
+  height: 50%;
+}
+.img1{
+  /* margin-top: 80%; */
+  position: absolute;
+  z-index: 1;
+  transform: rotate(-3deg);
+  border-radius: 8px;
+  width: 100%;
+  top: 0;
+  left: -30;
+}
+.img2{
+  border-radius: 8px;
+  margin-top: 137%;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  transform: rotate(7deg);
+  left: 40%;
+}
+.img3{
+  border-radius: 8px;
+  margin-top: 275%;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  transform: rotate(-6deg);
+  left: -10;
+}
+.donkeym h1{
+  animation: hideMe 5s forwards;
+  border-radius: 20px;
+  background-color: rgb(181, 35, 229);
+  text-align: center;
+}
+.donkeym{
+  width: 98vw;
+  height: 100vw;
+  /* animation-delay: 2s; */
+  /* animation: hideit 5s backwards; */
+}
+@keyframes hideMe{
+  0%{
+      opacity: 1;
+  }
+  70%{
+      opacity: .5;
+  }
+  100%{
+      opacity: 0;
+  }
+}
+.divspcll{
+  text-align: center;
+  border-radius: 15px;
+  color: rgb(96, 21, 237);
+  font-size: x-large;
+}
+
+.spc_h2{
+  text-align: center;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom right, rgb(255, 0, 238), rgb(255, 0, 93));
+  font-size: xx-large;
+  color: white;
+}
+
+.carousel_1{
+  opacity: 0.5;
+  font-size: 6vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #010130;
+  background-color: rgba(255, 255, 255, 0.086);
+  width: 100%;
+  height: 0%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  -webkit-transition: all 4s ease-out;
+  -moz-transition: all 4s ease-out;
+  -o-transition: all 4s ease-out;
+  -ms-transition: all 4s ease-out;
+  transition: all 4s ease-out;
+  text-align: center;
+}
+.carousel_2{
+  opacity: 0.5;
+  font-size: 6vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #030351;
+  background-color: rgba(255, 255, 255, 0.086);
+  width: 100%;
+  height: 0%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  -webkit-transition: all 4s ease-out;
+  -moz-transition: all 4s ease-out;
+  -o-transition: all 4s ease-out;
+  -ms-transition: all 4s ease-out;
+  transition: all 4s ease-out;
+  text-align: center;
+}
+.carousel_3{
+  opacity: 0.5;
+  font-size: 6vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #030351;
+  background-color: rgba(255, 255, 255, 0.086);
+  width: 100%;
+  height: 0%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  -webkit-transition: all 4s ease-out;
+  -moz-transition: all 4s ease-out;
+  -o-transition: all 4s ease-out;
+  -ms-transition: all 4s ease-out;
+  transition: all 4s ease-out;
+  text-align: center;
+}
+/* .carousel_1:hover{
+  opacity: .5;
+} */
